@@ -1,0 +1,23 @@
+{
+  "name": "singhack",
+  "version": "1.0.0",
+  "description": "Interfaze API demo",
+  "type": "module",
+  "main": "main.ts",
+  "scripts": {
+    "start": "tsx main.ts",
+    "dev": "tsx watch main.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "openai": "^4.67.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.8.6",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.3"
+  }
+}

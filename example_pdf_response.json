@@ -1,0 +1,4179 @@
+{
+  "id": "interfaze-1761975517275",
+  "object": "chat.completion",
+  "created": 1761975517,
+  "model": "interfaze-beta",
+  "usage": {
+    "prompt_tokens": 29547,
+    "completion_tokens": 291,
+    "total_tokens": 29838
+  },
+  "precontext": [
+    {
+      "name": "ocr",
+      "result": {
+        "sections": [
+          {
+            "text": "Links in PDF\nThere are two types of links in PDF: a link to a specific position in the same PDF document, and a link to an external\ndocument. The internal-destination property of fo:basic-link indicates to link to a position in the same document. Its\ndestination may be either an ID or a page number. The external-destination property indicates to link to an external\ndocument. Its destination may be either an external file or a website.\nLinking to an internal destination\nLinking to an ID : Specify internal-destination=\"Link-01\" on the link; specify id=\"Link-01\" on the link's destination.\nLinking to a page number (page 2) : internal-destination=\"2\"\nLinking to a page number (page 2) and setting the display ratio (200%) : internal-destination=\"2#zoom=200\"\nLinking to an external destination\nLinking to an external file (attachment-sample-1.pdf). : external-destination=\"./attachment-sample-1.pdf\"\nLinking to a website (https://www.antennahouse.com/) : external-destination=\"https://www.antennahouse.com/\"\nAntenna House, Inc.",
+            "lines": [
+              {
+                "text": "Links in PDF",
+                "bounds": {
+                  "top_left": {
+                    "x": 152,
+                    "y": 116
+                  },
+                  "top_right": {
+                    "x": 398,
+                    "y": 114
+                  },
+                  "bottom_right": {
+                    "x": 398,
+                    "y": 150
+                  },
+                  "bottom_left": {
+                    "x": 152,
+                    "y": 152
+                  },
+                  "width": 246,
+                  "height": 36
+                },
+                "average_confidence": 1,
+                "words": [
+                  {
+                    "text": "Links",
+                    "bounds": {
+                      "top_left": {
+                        "x": 152,
+                        "y": 116
+                      },
+                      "top_right": {
+                        "x": 253,
+                        "y": 116
+                      },
+                      "bottom_right": {
+                        "x": 252,
+                        "y": 152
+                      },
+                      "bottom_left": {
+                        "x": 152,
+                        "y": 153
+                      },
+                      "width": 100.5,
+                      "height": 36.5
+                    },
+                    "confidence": 1
+                  },
+                  {
+                    "text": "in",
+                    "bounds": {
+                      "top_left": {
+                        "x": 265,
+                        "y": 115
+                      },
+                      "top_right": {
+                        "x": 296,
+                        "y": 115
+                      },
+                      "bottom_right": {
+                        "x": 295,
+                        "y": 151
+                      },
+                      "bottom_left": {
+                        "x": 265,
+                        "y": 152
+                      },
+                      "width": 30.5,
+                      "height": 36.5
+                    },
+                    "confidence": 1
+                  },
+                  {
+                    "text": "PDF",
+                    "bounds": {
+                      "top_left": {
+                        "x": 316,
+                        "y": 115
+                      },
+                      "top_right": {
+                        "x": 389,
+                        "y": 114
+                      },
+                      "bottom_right": {
+                        "x": 388,
+                        "y": 151
+                      },
+                      "bottom_left": {
+                        "x": 315,
+                        "y": 151
+                      },
+                      "width": 73,
+                      "height": 36.5
+                    },
+                    "confidence": 1
+                  }
+                ]
+              },
+              {
+                "text": "There are two types of links in PDF: a link to a specific position in the same PDF document, and a link to an external",
+                "bounds": {
+                  "top_left": {
+                    "x": 121,
+                    "y": 230
+                  },
+                  "top_right": {
+                    "x": 1069,
+                    "y": 229
+                  },
+                  "bottom_right": {
+                    "x": 1069,
+                    "y": 253
+                  },
+                  "bottom_left": {
+                    "x": 121,
+                    "y": 254
+                  },
+                  "width": 948,
+                  "height": 24
+                },
+                "average_confidence": 1,
+                "words": [
+                  {
+                    "text": "There",
+                    "bounds": {
+                      "top_left": {
+                        "x": 123,
+                        "y": 232
+                      },
+                      "top_right": {
+                        "x": 170,
+                        "y": 232
+                      },
+                      "bottom_right": {
+                        "x": 169,
+                        "y": 254
+                      },
+                      "bottom_left": {
+                        "x": 122,
+                        "y": 253
+                      },
+                      "width": 47,
+                      "height": 21.5
+                    },
+                    "confidence": 1
+                  },
+                  {
+                    "text": "are",
+                    "bounds": {
+                      "top_left": {
+                        "x": 174,
+                        "y": 232
+                      },
+                      "top_right": {
+                        "x": 199,
+                        "y": 232
+                      },
+                      "bottom_right": {
+                        "x": 198,
+                        "y": 254
+                      },
+                      "bottom_left": {
+                        "x": 173,
+                        "y": 254
+                      },
+                      "width": 25,
+                      "height": 22
+                    },
+                    "confidence": 1
+                  },
+                  {
+                    "text": "two",
+                    "bounds": {
+                      "top_left": {
+                        "x": 203,
+                        "y": 232
+                      },
+                      "top_right": {
+                        "x": 234,
+                        "y": 231
+                      },
+                      "bottom_right": {
+                        "x": 233,
+                        "y": 254
+                      },
+                      "bottom_left": {
+                        "x": 202,
+                        "y": 254
+                      },
+                      "width": 31,
+                      "height": 22.5
+                    },
+                    "confidence": 1
+                  },
+                  {
+                    "text": "types",
+                    "bounds": {
+                      "top_left": {
+                        "x": 238,
+                        "y": 231
+                      },
+                      "top_right": {
+                        "x": 281,
+                        "y": 231
+                      },
+                      "bottom_right": {
+                        "x": 280,
+                        "y": 254
+                      },
+                      "bottom_left": {
+                        "x": 237,
+                        "y": 254
+                      },
+                      "width": 43,
+                      "height": 23
+                    },
+                    "confidence": 1
+                  },
+                  {
+                    "text": "of",
+                    "bounds": {
+                      "top_left": {
+                        "x": 285,
+                        "y": 231
+                      },
+                      "top_right": {
+                        "x": 303,
+                        "y": 231
+                      },
+                      "bottom_right": {
+                        "x": 303,
+                        "y": 254
+                      },
+                      "bottom_left": {
+                        "x": 284,
+                        "y": 254
+                      },
+                      "width": 18.5,
+                      "height": 23
+                    },
+                    "confidence": 1
+                  },
+                  {
+                    "text": "links",
+                    "bounds": {
+                      "top_left": {
+                        "x": 308,
+                        "y": 231
+                      },
+                      "top_right": {
+                        "x": 348,
+                        "y": 231
+                      },
+                      "bottom_right": {
+                        "x": 347,
+                        "y": 254
+                      },
+                      "bottom_left": {
+                        "x": 307,
+                        "y": 254
+                      },
+                      "width": 40,
+                      "height": 23
+                    },
+                    "confidence": 1
+                  },
+                  {
+                    "text": "in",
+                    "bounds": {
+                      "top_left": {
+                        "x": 352,
+                        "y": 231
+                      },
+                      "top_right": {
+                        "x": 369,
+                        "y": 231
+                      },
+                      "bottom_right": {
+                        "x": 368,
+                        "y": 254
+                      },
+                      "bottom_left": {
+                        "x": 351,
+                        "y": 254
+                      },
+                      "width": 17,
+                      "height": 23
+                    },
+                    "confidence": 1
+                  },
+                  {
+                    "text": "PDF:",
+                    "bounds": {
+                      "top_left": {
+                        "x": 373,
+                        "y": 231
+                      },
+                      "top_right": {
+                        "x": 416,
+                        "y": 230
+                      },
+                      "bottom_right": {
+                        "x": 415,
+                        "y": 255
+                      },
+                      "bottom_left": {
+                        "x": 373,
+                        "y": 254
+                      },
+                      "width": 42.5,
+                      "height": 24
+                    },
+                    "confidence": 0.98
+                  },
+                  {
+                    "text": "a",
+                    "bounds": {
+                      "top_left": {
+                        "x": 420,
+                        "y": 230
+                      },
+                      "top_right": {
+                        "x": 430,
+                        "y": 230
+                      },
+                      "bottom_right": {
+                        "x": 429,
+                        "y": 255
+                      },
+                      "bottom_left": {
+                        "x": 420,
+                        "y": 255
+                      },
+                      "width": 9.5,
+                      "height": 25
+                    },
+                    "confidence": 1
+                  },
+                  {
+                    "text": "link",
+                    "bounds": {
+                      "top_left": {
+                        "x": 434,
+                        "y": 230
+                      },
+                      "top_right": {
+                        "x": 466,
+                        "y": 230
+                      },
+                      "bottom_right": {
+                        "x": 465,
+                        "y": 255
+                      },
+                      "bottom_left": {
+                        "x": 433,
+                        "y": 255
+                      },
+                      "width": 32,
+                      "height": 25
+                    },
+                    "confidence": 0.99
+                  },
+                  {
+                    "text": "to",
+                    "bounds": {
+                      "top_left": {
+                        "x": 471,
+                        "y": 230
+                      },
+                      "top_right": {
+                        "x": 487,
+                        "y": 230
+                      },
+                      "bottom_right": {
+                        "x": 487,
+                        "y": 255
+                      },
+                      "bottom_left": {
+                        "x": 470,
+                        "y": 255
+                      },
+                      "width": 16.5,
+                      "height": 25
+                    },
+                    "confidence": 1
+                  },
+                  {
+                    "text": "a",
+                    "bounds": {
+                      "top_left": {
+                        "x": 492,
+                        "y": 230
+                      },
+                      "top_right": {
+                        "x": 503,
+                        "y": 230
+                      },
+                      "bottom_right": {
+                        "x": 502,
+                        "y": 255
+                      },
+                      "bottom_left": {
+                        "x": 491,
+                        "y": 255
+                      },
+                      "width": 11,
+                      "height": 25
+                    },
+                    "confidence": 1
+                  },
+                  {
+                    "text": "specific",
+                    "bounds": {
+                      "top_left": {
+                        "x": 507,
+                        "y": 230
+                      },
+                      "top_right": {
+                        "x": 569,
+                        "y": 230
+                      },
+                      "bottom_right": {
+                        "x": 569,
+                        "y": 255
+                      },
+                      "bottom_left": {
+                        "x": 506,
+                        "y": 255
+                      },
+                      "width": 62.5,
+                      "height": 25
+                    },
+                    "confidence": 0.99
+                  },
+                  {
+                    "text": "position",
+                    "bounds": {
+                      "top_left": {
+                        "x": 574,
+                        "y": 230
+                      },
+                      "top_right": {
+                        "x": 639,
+                        "y": 230
+                      },
+                      "bottom_right": {
+                        "x": 639,
+                        "y": 255
+                      },
+                      "bottom_left": {
+                        "x": 573,
+                        "y": 255
+                      },
+                      "width": 65.5,
+                      "height": 25
+                    },
+                    "confidence": 0.99
+                  },
+                  {
+                    "text": "in",
+                    "bounds": {
+                      "top_left": {
+                        "x": 644,
+                        "y": 230
+                      },
+                      "top_right": {
+                        "x": 659,
+                        "y": 230
+                      },
+                      "bottom_right": {
+                        "x": 659,
+                        "y": 255
+                      },
+                      "bottom_left": {
+                        "x": 643,
+                        "y": 255
+                      },
+                      "width": 15.5,
+                      "height": 25
+                    },
+                    "confidence": 1
+                  },
+                  {
+                    "text": "the",
+                    "bounds": {
+                      "top_left": {
+                        "x": 664,
+                        "y": 230
+                      },
+                      "top_right": {
+                        "x": 691,
+                        "y": 230
+                      },
+                      "bottom_right": {
+                        "x": 690,
+                        "y": 254
+                      },
+                      "bottom_left": {
+                        "x": 663,
+                        "y": 255
+                      },
+                      "width": 27,
+                      "height": 24.5
+                    },
+                    "confidence": 1
+                  },
+                  {
+                    "text": "same",
+                    "bounds": {
+                      "top_left": {
+                        "x": 695,
+                        "y": 230
+                      },
+                      "top_right": {
+                        "x": 736,
+                        "y": 230
+                      },
+                      "bottom_right": {
+                        "x": 736,
+                        "y": 254
+                      },
+                      "bottom_left": {
+                        "x": 695,
+                        "y": 254
+                      },
+                      "width": 41,
+                      "height": 24
+                    },
+                    "confidence": 0.99
+                  },
+                  {
+                    "text": "PDF",
+                    "bounds": {
+                      "top_left": {
+                        "x": 741,
+                        "y": 230
+                      },
+                      "top_right": {
+                        "x": 779,
+                        "y": 230
+                      },
+                      "bottom_right": {
+                        "x": 778,
+                        "y": 254
+                      },
+                      "bottom_left": {
+                        "x": 741,
+                        "y": 254
+                      },
+                      "width": 37.5,
+                      "height": 24
+                    },
+                    "confidence": 1
+                  },
+                  {
+                    "text": "document,",
+                    "bounds": {
+                      "top_left": {
+                        "x": 784,
+                        "y": 230
+                      },
+                      "top_right": {
+                        "x": 867,
+                        "y": 230
+                      },
+                      "bottom_right": {
+                        "x": 867,
+                        "y": 254
+                      },
+                      "bottom_left": {
+                        "x": 783,
+                        "y": 254
+                      },
+                      "width": 83.5,
+                      "height": 24
+                    },
+                    "confidence": 0.99
+                  },
+                  {
+                    "text": "and",
+                    "bounds": {
+                      "top_left": {
+                        "x": 872,
+                        "y": 230
+                      },
+                      "top_right": {
+                        "x": 902,
+                        "y": 231
+                      },
+                      "bottom_right": {
+                        "x": 902,
+                        "y": 254
+                      },
+                      "bottom_left": {
+                        "x": 871,
+                        "y": 254
+                      },
+                      "width": 30.5,
+                      "height": 23.5
+                    },
+                    "confidence": 1
+                  },
+                  {
+                    "text": "a",
+                    "bounds": {
+                      "top_left": {
+                        "x": 907,
+                        "y": 231
+                      },
+                      "top_right": {
+                        "x": 916,
+                        "y": 231
+                      },
+                      "bottom_right": {
+                        "x": 916,
+                        "y": 254
+                      },
+                      "bottom_left": {
+                        "x": 906,
+                        "y": 254
+                      },
+                      "width": 9.5,
+                      "height": 23
+                    },
+                    "confidence": 1
+                  },
+                  {
+                    "text": "link",
+                    "bounds": {
+                      "top_left": {
+                        "x": 920,
+                        "y": 231
+                      },
+                      "top_right": {
+                        "x": 952,
+                        "y": 231
+                      },
+                      "bottom_right": {
+                        "x": 952,
+                        "y": 253
+                      },
+                      "bottom_left": {
+                        "x": 920,
+                        "y": 254
+                      },
+                      "width": 32,
+                      "height": 22.5
+                    },
+                    "confidence": 0.99
+                  },
+                  {
+                    "text": "to",
+                    "bounds": {
+                      "top_left": {
+                        "x": 957,
+                        "y": 231
+                      },
+                      "top_right": {
+                        "x": 973,
+                        "y": 231
+                      },
+                      "bottom_right": {
+                        "x": 973,
+                        "y": 253
+                      },
+                      "bottom_left": {
+                        "x": 957,
+                        "y": 253
+                      },
+                      "width": 16,
+                      "height": 22
+                    },
+                    "confidence": 1
+                  },
+                  {
+                    "text": "an",
+                    "bounds": {
+                      "top_left": {
+                        "x": 978,
+                        "y": 231
+                      },
+                      "top_right": {
+                        "x": 996,
+                        "y": 231
+                      },
+                      "bottom_right": {
+                        "x": 996,
+                        "y": 253
+                      },
+                      "bottom_left": {
+                        "x": 978,
+                        "y": 253
+                      },
+                      "width": 18,
+                      "height": 22
+                    },
+                    "confidence": 1
+                  },
+                  {
+                    "text": "external",
+                    "bounds": {
+                      "top_left": {
+                        "x": 1001,
+                        "y": 231
+                      },
+                      "top_right": {
+                        "x": 1069,
+                        "y": 232
+                      },
+                      "bottom_right": {
+                        "x": 1069,
+                        "y": 253
+                      },
+                      "bottom_left": {
+                        "x": 1001,
+                        "y": 253
+                      },
+                      "width": 68,
+                      "height": 21.5
+                    },
+                    "confidence": 0.99
+                  }
+                ]
+              },
+              {
+                "text": "document. The internal-destination property of fo:basic-link indicates to link to a position in the same document. Its",
+                "bounds": {
+                  "top_left": {
+                    "x": 122,
+                    "y": 258
+                  },
+                  "top_right": {
+                    "x": 1069,
+                    "y": 258
+                  },
+                  "bottom_right": {
+                    "x": 1069,
+                    "y": 283
+                  },
+                  "bottom_left": {
+                    "x": 122,
+                    "y": 282
+                  },
+                  "width": 947,
+                  "height": 24.5
+                },
+                "average_confidence": 0.99,
+                "words": [
+                  {
+                    "text": "document.",
+                    "bounds": {
+                      "top_left": {
+                        "x": 124,
+                        "y": 258
+                      },
+                      "top_right": {
+                        "x": 208,
+                        "y": 258
+                      },
+                      "bottom_right": {
+                        "x": 207,
+                        "y": 282
+                      },
+                      "bottom_left": {
+                        "x": 123,
+                        "y": 281
+                      },
+                      "width": 84,
+                      "height": 23.5
+                    },
+                    "confidence": 0.99
+                  },
+                  {
+                    "text": "The",
+                    "bounds": {
+                      "top_left": {
+                        "x": 212,
+                        "y": 258
+                      },
+                      "top_right": {
+                        "x": 243,
+                        "y": 258
+                      },
+                      "bottom_right": {
+                        "x": 242,
+                        "y": 282
+                      },
+                      "bottom_left": {
+                        "x": 211,
+                        "y": 282
+                      },
+                      "width": 31,
+                      "height": 24
+                    },
+                    "confidence": 0.99
+                  },
+                  {
+                    "text": "internal-destination",
+                    "bounds": {
+                      "top_left": {
+                        "x": 247,
+                        "y": 258
+                      },
+                      "top_right": {
+                        "x": 404,
+                        "y": 258
+                      },
+                      "bottom_right": {
+                        "x": 403,
+                        "y": 283
+                      },
+                      "bottom_left": {
+                        "x": 246,
+                        "y": 282
+                      },
+                      "width": 157,
+                      "height": 24.5
+                    },
+                    "confidence": 0.99
+                  },
+                  {
+                    "text": "property",
+                    "bounds": {
+                      "top_left": {
+                        "x": 409,
+                        "y": 258
+                      },
+                      "top_right": {
+                        "x": 479,
+                        "y": 258
+                      },
+                      "bottom_right": {
+                        "x": 478,
+                        "y": 283
+                      },
+                      "bottom_left": {
+                        "x": 408,
+                        "y": 283
+                      },
+                      "width": 70,
+                      "height": 25
+                    },
+                    "confidence": 0.99
+                  },
+                  {
+                    "text": "of",
+                    "bounds": {
+                      "top_left": {
+                        "x": 484,
+                        "y": 258
+                      },
+                      "top_right": {
+                        "x": 503,
+                        "y": 258
+                      },
+                      "bottom_right": {
+                        "x": 502,
+                        "y": 283
+                      },
+                      "bottom_left": {
+                        "x": 483,
+                        "y": 283
+                      },
+                      "width": 19,
+                      "height": 25
+                    },
+                    "confidence": 1
+                  },
+                  {
+                    "text": "fo:basic-link",
+                    "bounds": {
+                      "top_left": {
+                        "x": 507,
+                        "y": 258
+                      },
+                      "top_right": {
+                        "x": 609,
+                        "y": 258
+                      },
+                      "bottom_right": {
+                        "x": 608,
+                        "y": 283
+                      },
+                      "bottom_left": {
+                        "x": 506,
+                        "y": 283
+                      },
+                      "width": 102,
+                      "height": 25
+                    },
+                    "confidence": 0.99
+                  },
+                  {
+                    "text": "indicates",
+                    "bounds": {
+                      "top_left": {
+                        "x": 614,
+                        "y": 258
+                      },
+                      "top_right": {
+                        "x": 687,
+                        "y": 258
+                      },
+                      "bottom_right": {
+                        "x": 686,
+                        "y": 283
+                      },
+                      "bottom_left": {
+                        "x": 613,
+                        "y": 283
+                      },
+                      "width": 73,
+                      "height": 25
+                    },
+                    "confidence": 0.99
+                  },
+                  {
+                    "text": "to",
+                    "bounds": {
+                      "top_left": {
+                        "x": 691,
+                        "y": 258
+                      },
+                      "top_right": {
+                        "x": 707,
+                        "y": 258
+                      },
+                      "bottom_right": {
+                        "x": 706,
+                        "y": 283
+                      },
+                      "bottom_left": {
+                        "x": 690,
+                        "y": 283
+                      },
+                      "width": 16,
+                      "height": 25
+                    },
+                    "confidence": 1
+                  },
+                  {
+                    "text": "link",
+                    "bounds": {
+                      "top_left": {
+                        "x": 712,
+                        "y": 258
+                      },
+                      "top_right": {
+                        "x": 745,
+                        "y": 258
+                      },
+                      "bottom_right": {
+                        "x": 744,
+                        "y": 283
+                      },
+                      "bottom_left": {
+                        "x": 711,
+                        "y": 283
+                      },
+                      "width": 33,
+                      "height": 25
+                    },
+                    "confidence": 0.99
+                  },
+                  {
+                    "text": "to",
+                    "bounds": {
+                      "top_left": {
+                        "x": 750,
+                        "y": 258
+                      },
+                      "top_right": {
+                        "x": 767,
+                        "y": 258
+                      },
+                      "bottom_right": {
+                        "x": 766,
+                        "y": 283
+                      },
+                      "bottom_left": {
+                        "x": 749,
+                        "y": 283
+                      },
+                      "width": 17,
+                      "height": 25
+                    },
+                    "confidence": 1
+                  },
+                  {
+                    "text": "a",
+                    "bounds": {
+                      "top_left": {
+                        "x": 772,
+                        "y": 258
+                      },
+                      "top_right": {
+                        "x": 782,
+                        "y": 258
+                      },
+                      "bottom_right": {
+                        "x": 781,
+                        "y": 283
+                      },
+                      "bottom_left": {
+                        "x": 771,
+                        "y": 283
+                      },
+                      "width": 10,
+                      "height": 25
+                    },
+                    "confidence": 1
+                  },
+                  {
+                    "text": "position",
+                    "bounds": {
+                      "top_left": {
+                        "x": 786,
+                        "y": 258
+                      },
+                      "top_right": {
+                        "x": 851,
+                        "y": 258
+                      },
+                      "bottom_right": {
+                        "x": 850,
+                        "y": 283
+                      },
+                      "bottom_left": {
+                        "x": 785,
+                        "y": 283
+                      },
+                      "width": 65,
+                      "height": 25
+                    },
+                    "confidence": 0.99
+                  },
+                  {
+                    "text": "in",
+                    "bounds": {
+                      "top_left": {
+                        "x": 856,
+                        "y": 258
+                      },
+                      "top_right": {
+                        "x": 874,
+                        "y": 258
+                      },
+                      "bottom_right": {
+                        "x": 873,
+                        "y": 283
+                      },
+                      "bottom_left": {
+                        "x": 855,
+                        "y": 283
+                      },
+                      "width": 18,
+                      "height": 25
+                    },
+                    "confidence": 1
+                  },
+                  {
+                    "text": "the",
+                    "bounds": {
+                      "top_left": {
+                        "x": 878,
+                        "y": 258
+                      },
+                      "top_right": {
+                        "x": 905,
+                        "y": 258
+                      },
+                      "bottom_right": {
+                        "x": 904,
+                        "y": 283
+                      },
+                      "bottom_left": {
+                        "x": 877,
+                        "y": 283
+                      },
+                      "width": 27,
+                      "height": 25
+                    },
+                    "confidence": 1
+                  },
+                  {
+                    "text": "same",
+                    "bounds": {
+                      "top_left": {
+                        "x": 910,
+                        "y": 258
+                      },
+                      "top_right": {
+                        "x": 951,
+                        "y": 258
+                      },
+                      "bottom_right": {
+                        "x": 950,
+                        "y": 282
+                      },
+                      "bottom_left": {
+                        "x": 909,
+                        "y": 283
+                      },
+                      "width": 41,
+                      "height": 24.5
+                    },
+                    "confidence": 0.99
+                  },
+                  {
+                    "text": "document.",
+                    "bounds": {
+                      "top_left": {
+                        "x": 956,
+                        "y": 258
+                      },
+                      "top_right": {
+                        "x": 1042,
+                        "y": 258
+                      },
+                      "bottom_right": {
+                        "x": 1041,
+                        "y": 282
+                      },
+                      "bottom_left": {
+                        "x": 955,
+                        "y": 282
+                      },
+                      "width": 86,
+                      "height": 24
+                    },
+                    "confidence": 0.99
+                  },
+                  {
+                    "text": "Its",
+                    "bounds": {
+                      "top_left": {
+                        "x": 1046,
+                        "y": 258
+                      },
+                      "top_right": {
+                        "x": 1069,
+                        "y": 258
+                      },
+                      "bottom_right": {
+                        "x": 1068,
+                        "y": 282
+                      },
+                      "bottom_left": {
+                        "x": 1045,
+                        "y": 282
+                      },
+                      "width": 23,
+                      "height": 24
+                    },
+                    "confidence": 1
+                  }
+                ]
+              },
+              {
+                "text": "destination may be either an ID or a page number. The external-destination property indicates to link to an external",
+                "bounds": {
+                  "top_left": {
+                    "x": 121,
+                    "y": 286
+                  },
+                  "top_right": {
+                    "x": 1068,
+                    "y": 285
+                  },
+                  "bottom_right": {
+                    "x": 1068,
+                    "y": 311
+                  },
+                  "bottom_left": {
+                    "x": 121,
+                    "y": 311
+                  },
+                  "width": 947,
+                  "height": 25.5
+                },
+                "average_confidence": 0.99,
+                "words": [
+                  {
+                    "text": "destination",
+                    "bounds": {
+                      "top_left": {
+                        "x": 121,
+                        "y": 286
+                      },
+                      "top_right": {
+                        "x": 210,
+                        "y": 286
+                      },
+                      "bottom_right": {
+                        "x": 210,
+                        "y": 310
+                      },
+                      "bottom_left": {
+                        "x": 121,
+                        "y": 310
+                      },
+                      "width": 89,
+                      "height": 24
+                    },
+                    "confidence": 0.99
+                  },
+                  {
+                    "text": "may",
+                    "bounds": {
+                      "top_left": {
+                        "x": 215,
+                        "y": 286
+                      },
+                      "top_right": {
+                        "x": 250,
+                        "y": 287
+                      },
+                      "bottom_right": {
+                        "x": 250,
+                        "y": 310
+                      },
+                      "bottom_left": {
+                        "x": 215,
+                        "y": 310
+                      },
+                      "width": 35,
+                      "height": 23.5
+                    },
+                    "confidence": 1
+                  },
+                  {
+                    "text": "be",
+                    "bounds": {
+                      "top_left": {
+                        "x": 255,
+                        "y": 287
+                      },
+                      "top_right": {
+                        "x": 276,
+                        "y": 287
+                      },
+                      "bottom_right": {
+                        "x": 276,
+                        "y": 311
+                      },
+                      "bottom_left": {
+                        "x": 255,
+                        "y": 311
+                      },
+                      "width": 21,
+                      "height": 24
+                    },
+                    "confidence": 1
+                  },
+                  {
+                    "text": "either",
+                    "bounds": {
+                      "top_left": {
+                        "x": 281,
+                        "y": 287
+                      },
+                      "top_right": {
+                        "x": 329,
+                        "y": 287
+                      },
+                      "bottom_right": {
+                        "x": 329,
+                        "y": 311
+                      },
+                      "bottom_left": {
+                        "x": 281,
+                        "y": 311
+                      },
+                      "width": 48,
+                      "height": 24
+                    },
+                    "confidence": 0.99
+                  },
+                  {
+                    "text": "an",
+                    "bounds": {
+                      "top_left": {
+                        "x": 333,
+                        "y": 287
+                      },
+                      "top_right": {
+                        "x": 354,
+                        "y": 287
+                      },
+                      "bottom_right": {
+                        "x": 354,
+                        "y": 311
+                      },
+                      "bottom_left": {
+                        "x": 333,
+                        "y": 311
+                      },
+                      "width": 21,
+                      "height": 24
+                    },
+                    "confidence": 1
+                  },
+                  {
+                    "text": "ID",
+                    "bounds": {
+                      "top_left": {
+                        "x": 359,
+                        "y": 287
+                      },
+                      "top_right": {
+                        "x": 378,
+                        "y": 287
+                      },
+                      "bottom_right": {
+                        "x": 378,
+                        "y": 311
+                      },
+                      "bottom_left": {
+                        "x": 359,
+                        "y": 311
+                      },
+                      "width": 19,
+                      "height": 24
+                    },
+                    "confidence": 1
+                  },
+                  {
+                    "text": "or",
+                    "bounds": {
+                      "top_left": {
+                        "x": 386,
+                        "y": 287
+                      },
+                      "top_right": {
+                        "x": 404,
+                        "y": 287
+                      },
+                      "bottom_right": {
+                        "x": 404,
+                        "y": 311
+                      },
+                      "bottom_left": {
+                        "x": 386,
+                        "y": 311
+                      },
+                      "width": 18,
+                      "height": 24
+                    },
+                    "confidence": 1
+                  },
+                  {
+                    "text": "a",
+                    "bounds": {
+                      "top_left": {
+                        "x": 408,
+                        "y": 287
+                      },
+                      "top_right": {
+                        "x": 418,
+                        "y": 287
+                      },
+                      "bottom_right": {
+                        "x": 418,
+                        "y": 311
+                      },
+                      "bottom_left": {
+                        "x": 408,
+                        "y": 311
+                      },
+                      "width": 10,
+                      "height": 24
+                    },
+                    "confidence": 1
+                  },
+                  {
+                    "text": "page",
+                    "bounds": {
+                      "top_left": {
+                        "x": 423,
+                        "y": 287
+                      },
+                      "top_right": {
+                        "x": 463,
+                        "y": 287
+                      },
+                      "bottom_right": {
+                        "x": 463,
+                        "y": 311
+                      },
+                      "bottom_left": {
+                        "x": 423,
+                        "y": 311
+                      },
+                      "width": 40,
+                      "height": 24
+                    },
+                    "confidence": 0.99
+                  },
+                  {
+                    "text": "number.",
+                    "bounds": {
+                      "top_left": {
+                        "x": 467,
+                        "y": 287
+                      },
+                      "top_right": {
+                        "x": 536,
+                        "y": 287
+                      },
+                      "bottom_right": {
+                        "x": 536,
+                        "y": 312
+                      },
+                      "bottom_left": {
+                        "x": 467,
+                        "y": 311
+                      },
+                      "width": 69,
+                      "height": 24.5
+                    },
+                    "confidence": 0.99
+                  },
+                  {
+                    "text": "The",
+                    "bounds": {
+                      "top_left": {
+                        "x": 541,
+                        "y": 287
+                      },
+                      "top_right": {
+                        "x": 571,
+                        "y": 287
+                      },
+                      "bottom_right": {
+                        "x": 571,
+                        "y": 312
+                      },
+                      "bottom_left": {
+                        "x": 541,
+                        "y": 312
+                      },
+                      "width": 30,
+                      "height": 25
+                    },
+                    "confidence": 0.99
+                  },
+                  {
+                    "text": "external-destination",
+                    "bounds": {
+                      "top_left": {
+                        "x": 576,
+                        "y": 287
+                      },
+                      "top_right": {
+                        "x": 737,
+                        "y": 286
+                      },
+                      "bottom_right": {
+                        "x": 737,
+                        "y": 311
+                      },
+                      "bottom_left": {
+                        "x": 576,
+                        "y": 312
+                      },
+                      "width": 161,
+                      "height": 25
+                    },
+                    "confidence": 0.98
+                  },
+                  {
+                    "text": "property",
+                    "bounds": {
+                      "top_left": {
+                        "x": 742,
+                        "y": 286
+                      },
+                      "top_right": {
+                        "x": 812,
+                        "y": 286
+                      },
+                      "bottom_right": {
+                        "x": 812,
+                        "y": 311
+                      },
+                      "bottom_left": {
+                        "x": 742,
+                        "y": 311
+                      },
+                      "width": 70,
+                      "height": 25
+                    },
+                    "confidence": 0.99
+                  },
+                  {
+                    "text": "indicates",
+                    "bounds": {
+                      "top_left": {
+                        "x": 817,
+                        "y": 286
+                      },
+                      "top_right": {
+                        "x": 889,
+                        "y": 286
+                      },
+                      "bottom_right": {
+                        "x": 889,
+                        "y": 311
+                      },
+                      "bottom_left": {
+                        "x": 817,
+                        "y": 311
+                      },
+                      "width": 72,
+                      "height": 25
+                    },
+                    "confidence": 0.99
+                  },
+                  {
+                    "text": "to",
+                    "bounds": {
+                      "top_left": {
+                        "x": 894,
+                        "y": 286
+                      },
+                      "top_right": {
+                        "x": 911,
+                        "y": 286
+                      },
+                      "bottom_right": {
+                        "x": 911,
+                        "y": 311
+                      },
+                      "bottom_left": {
+                        "x": 894,
+                        "y": 311
+                      },
+                      "width": 17,
+                      "height": 25
+                    },
+                    "confidence": 1
+                  },
+                  {
+                    "text": "link",
+                    "bounds": {
+                      "top_left": {
+                        "x": 916,
+                        "y": 286
+                      },
+                      "top_right": {
+                        "x": 948,
+                        "y": 286
+                      },
+                      "bottom_right": {
+                        "x": 948,
+                        "y": 310
+                      },
+                      "bottom_left": {
+                        "x": 916,
+                        "y": 311
+                      },
+                      "width": 32,
+                      "height": 24.5
+                    },
+                    "confidence": 0.99
+                  },
+                  {
+                    "text": "to",
+                    "bounds": {
+                      "top_left": {
+                        "x": 953,
+                        "y": 286
+                      },
+                      "top_right": {
+                        "x": 970,
+                        "y": 286
+                      },
+                      "bottom_right": {
+                        "x": 970,
+                        "y": 310
+                      },
+                      "bottom_left": {
+                        "x": 953,
+                        "y": 310
+                      },
+                      "width": 17,
+                      "height": 24
+                    },
+                    "confidence": 1
+                  },
+                  {
+                    "text": "an",
+                    "bounds": {
+                      "top_left": {
+                        "x": 975,
+                        "y": 286
+                      },
+                      "top_right": {
+                        "x": 996,
+                        "y": 286
+                      },
+                      "bottom_right": {
+                        "x": 996,
+                        "y": 310
+                      },
+                      "bottom_left": {
+                        "x": 975,
+                        "y": 310
+                      },
+                      "width": 21,
+                      "height": 24
+                    },
+                    "confidence": 1
+                  },
+                  {
+                    "text": "external",
+                    "bounds": {
+                      "top_left": {
+                        "x": 1000,
+                        "y": 286
+                      },
+                      "top_right": {
+                        "x": 1067,
+                        "y": 286
+                      },
+                      "bottom_right": {
+                        "x": 1067,
+                        "y": 310
+                      },
+                      "bottom_left": {
+                        "x": 1000,
+                        "y": 310
+                      },
+                      "width": 67,
+                      "height": 24
+                    },
+                    "confidence": 0.99
+                  }
+                ]
+              },
+              {
+                "text": "document. Its destination may be either an external file or a website.",
+                "bounds": {
+                  "top_left": {
+                    "x": 122,
+                    "y": 314
+                  },
+                  "top_right": {
+                    "x": 673,
+                    "y": 314
+                  },
+                  "bottom_right": {
+                    "x": 673,
+                    "y": 338
+                  },
+                  "bottom_left": {
+                    "x": 122,
+                    "y": 338
+                  },
+                  "width": 551,
+                  "height": 24
+                },
+                "average_confidence": 1,
+                "words": [
+                  {
+                    "text": "document.",
+                    "bounds": {
+                      "top_left": {
+                        "x": 123,
+                        "y": 315
+                      },
+                      "top_right": {
+                        "x": 205,
+                        "y": 315
+                      },
+                      "bottom_right": {
+                        "x": 205,
+                        "y": 338
+                      },
+                      "bottom_left": {
+                        "x": 123,
+                        "y": 338
+                      },
+                      "width": 82,
+                      "height": 23
+                    },
+                    "confidence": 0.99
+                  },
+                  {
+                    "text": "Its",
+                    "bounds": {
+                      "top_left": {
+                        "x": 210,
+                        "y": 315
+                      },
+                      "top_right": {
+                        "x": 230,
+                        "y": 315
+                      },
+                      "bottom_right": {
+                        "x": 230,
+                        "y": 338
+                      },
+                      "bottom_left": {
+                        "x": 210,
+                        "y": 338
+                      },
+                      "width": 20,
+                      "height": 23
+                    },
+                    "confidence": 1
+                  },
+                  {
+                    "text": "destination",
+                    "bounds": {
+                      "top_left": {
+                        "x": 235,
+                        "y": 315
+                      },
+                      "top_right": {
+                        "x": 322,
+                        "y": 315
+                      },
+                      "bottom_right": {
+                        "x": 322,
+                        "y": 338
+                      },
+                      "bottom_left": {
+                        "x": 235,
+                        "y": 338
+                      },
+                      "width": 87,
+                      "height": 23
+                    },
+                    "confidence": 0.99
+                  },
+                  {
+                    "text": "may",
+                    "bounds": {
+                      "top_left": {
+                        "x": 327,
+                        "y": 315
+                      },
+                      "top_right": {
+                        "x": 362,
+                        "y": 314
+                      },
+                      "bottom_right": {
+                        "x": 363,
+                        "y": 338
+                      },
+                      "bottom_left": {
+                        "x": 327,
+                        "y": 338
+                      },
+                      "width": 35.5,
+                      "height": 23.5
+                    },
+                    "confidence": 0.99
+                  },
+                  {
+                    "text": "be",
+                    "bounds": {
+                      "top_left": {
+                        "x": 367,
+                        "y": 314
+                      },
+                      "top_right": {
+                        "x": 386,
+                        "y": 314
+                      },
+                      "bottom_right": {
+                        "x": 386,
+                        "y": 338
+                      },
+                      "bottom_left": {
+                        "x": 368,
+                        "y": 338
+                      },
+                      "width": 18.5,
+                      "height": 24
+                    },
+                    "confidence": 1
+                  },
+                  {
+                    "text": "either",
+                    "bounds": {
+                      "top_left": {
+                        "x": 390,
+                        "y": 314
+                      },
+                      "top_right": {
+                        "x": 437,
+                        "y": 314
+                      },
+                      "bottom_right": {
+                        "x": 438,
+                        "y": 338
+                      },
+                      "bottom_left": {
+                        "x": 391,
+                        "y": 338
+                      },
+                      "width": 47,
+                      "height": 24
+                    },
+                    "confidence": 1
+                  },
+                  {
+                    "text": "an",
+                    "bounds": {
+                      "top_left": {
+                        "x": 442,
+                        "y": 314
+                      },
+                      "top_right": {
+                        "x": 460,
+                        "y": 314
+                      },
+                      "bottom_right": {
+                        "x": 461,
+                        "y": 338
+                      },
+                      "bottom_left": {
+                        "x": 442,
+                        "y": 338
+                      },
+                      "width": 18.5,
+                      "height": 24
+                    },
+                    "confidence": 1
+                  },
+                  {
+                    "text": "external",
+                    "bounds": {
+                      "top_left": {
+                        "x": 465,
+                        "y": 314
+                      },
+                      "top_right": {
+                        "x": 530,
+                        "y": 314
+                      },
+                      "bottom_right": {
+                        "x": 531,
+                        "y": 338
+                      },
+                      "bottom_left": {
+                        "x": 466,
+                        "y": 338
+                      },
+                      "width": 65,
+                      "height": 24
+                    },
+                    "confidence": 0.99
+                  },
+                  {
+                    "text": "file",
+                    "bounds": {
+                      "top_left": {
+                        "x": 535,
+                        "y": 314
+                      },
+                      "top_right": {
+                        "x": 562,
+                        "y": 314
+                      },
+                      "bottom_right": {
+                        "x": 562,
+                        "y": 338
+                      },
+                      "bottom_left": {
+                        "x": 536,
+                        "y": 338
+                      },
+                      "width": 26.5,
+                      "height": 24
+                    },
+                    "confidence": 0.99
+                  },
+                  {
+                    "text": "or",
+                    "bounds": {
+                      "top_left": {
+                        "x": 566,
+                        "y": 314
+                      },
+                      "top_right": {
+                        "x": 583,
+                        "y": 314
+                      },
+                      "bottom_right": {
+                        "x": 584,
+                        "y": 338
+                      },
+                      "bottom_left": {
+                        "x": 567,
+                        "y": 338
+                      },
+                      "width": 17,
+                      "height": 24
+                    },
+                    "confidence": 1
+                  },
+                  {
+                    "text": "a",
+                    "bounds": {
+                      "top_left": {
+                        "x": 588,
+                        "y": 314
+                      },
+                      "top_right": {
+                        "x": 597,
+                        "y": 314
+                      },
+                      "bottom_right": {
+                        "x": 598,
+                        "y": 338
+                      },
+                      "bottom_left": {
+                        "x": 589,
+                        "y": 338
+                      },
+                      "width": 9,
+                      "height": 24
+                    },
+                    "confidence": 1
+                  },
+                  {
+                    "text": "website.",
+                    "bounds": {
+                      "top_left": {
+                        "x": 602,
+                        "y": 314
+                      },
+                      "top_right": {
+                        "x": 672,
+                        "y": 314
+                      },
+                      "bottom_right": {
+                        "x": 673,
+                        "y": 339
+                      },
+                      "bottom_left": {
+                        "x": 603,
+                        "y": 338
+                      },
+                      "width": 70,
+                      "height": 24.5
+                    },
+                    "confidence": 0.99
+                  }
+                ]
+              },
+              {
+                "text": "Linking to an internal destination",
+                "bounds": {
+                  "top_left": {
+                    "x": 111,
+                    "y": 382
+                  },
+                  "top_right": {
+                    "x": 492,
+                    "y": 382
+                  },
+                  "bottom_right": {
+                    "x": 492,
+                    "y": 409
+                  },
+                  "bottom_left": {
+                    "x": 111,
+                    "y": 409
+                  },
+                  "width": 381,
+                  "height": 27
+                },
+                "average_confidence": 1,
+                "words": [
+                  {
+                    "text": "Linking",
+                    "bounds": {
+                      "top_left": {
+                        "x": 112,
+                        "y": 383
+                      },
+                      "top_right": {
+                        "x": 196,
+                        "y": 383
+                      },
+                      "bottom_right": {
+                        "x": 196,
+                        "y": 409
+                      },
+                      "bottom_left": {
+                        "x": 112,
+                        "y": 410
+                      },
+                      "width": 84,
+                      "height": 26.5
+                    },
+                    "confidence": 1
+                  },
+                  {
+                    "text": "to",
+                    "bounds": {
+                      "top_left": {
+                        "x": 203,
+                        "y": 383
+                      },
+                      "top_right": {
+                        "x": 225,
+                        "y": 383
+                      },
+                      "bottom_right": {
+                        "x": 225,
+                        "y": 409
+                      },
+                      "bottom_left": {
+                        "x": 203,
+                        "y": 409
+                      },
+                      "width": 22,
+                      "height": 26
+                    },
+                    "confidence": 1
+                  },
+                  {
+                    "text": "an",
+                    "bounds": {
+                      "top_left": {
+                        "x": 234,
+                        "y": 383
+                      },
+                      "top_right": {
+                        "x": 260,
+                        "y": 384
+                      },
+                      "bottom_right": {
+                        "x": 260,
+                        "y": 409
+                      },
+                      "bottom_left": {
+                        "x": 234,
+                        "y": 409
+                      },
+                      "width": 26,
+                      "height": 25.5
+                    },
+                    "confidence": 1
+                  },
+                  {
+                    "text": "internal",
+                    "bounds": {
+                      "top_left": {
+                        "x": 267,
+                        "y": 384
+                      },
+                      "top_right": {
+                        "x": 357,
+                        "y": 384
+                      },
+                      "bottom_right": {
+                        "x": 357,
+                        "y": 408
+                      },
+                      "bottom_left": {
+                        "x": 267,
+                        "y": 409
+                      },
+                      "width": 90,
+                      "height": 24.5
+                    },
+                    "confidence": 0.99
+                  },
+                  {
+                    "text": "destination",
+                    "bounds": {
+                      "top_left": {
+                        "x": 362,
+                        "y": 384
+                      },
+                      "top_right": {
+                        "x": 489,
+                        "y": 383
+                      },
+                      "bottom_right": {
+                        "x": 489,
+                        "y": 409
+                      },
+                      "bottom_left": {
+                        "x": 362,
+                        "y": 408
+                      },
+                      "width": 127,
+                      "height": 25
+                    },
+                    "confidence": 0.99
+                  }
+                ]
+              },
+              {
+                "text": "Linking to an ID : Specify internal-destination=\"Link-01\" on the link; specify id=\"Link-01\" on the link's destination.",
+                "bounds": {
+                  "top_left": {
+                    "x": 109,
+                    "y": 428
+                  },
+                  "top_right": {
+                    "x": 1056,
+                    "y": 428
+                  },
+                  "bottom_right": {
+                    "x": 1056,
+                    "y": 452
+                  },
+                  "bottom_left": {
+                    "x": 109,
+                    "y": 452
+                  },
+                  "width": 947,
+                  "height": 24
+                },
+                "average_confidence": 0.98,
+                "words": [
+                  {
+                    "text": "Linking",
+                    "bounds": {
+                      "top_left": {
+                        "x": 112,
+                        "y": 429
+                      },
+                      "top_right": {
+                        "x": 175,
+                        "y": 429
+                      },
+                      "bottom_right": {
+                        "x": 174,
+                        "y": 452
+                      },
+                      "bottom_left": {
+                        "x": 111,
+                        "y": 453
+                      },
+                      "width": 63,
+                      "height": 23.5
+                    },
+                    "confidence": 0.99
+                  },
+                  {
+                    "text": "to",
+                    "bounds": {
+                      "top_left": {
+                        "x": 179,
+                        "y": 429
+                      },
+                      "top_right": {
+                        "x": 196,
+                        "y": 429
+                      },
+                      "bottom_right": {
+                        "x": 195,
+                        "y": 452
+                      },
+                      "bottom_left": {
+                        "x": 178,
+                        "y": 452
+                      },
+                      "width": 17,
+                      "height": 23
+                    },
+                    "confidence": 1
+                  },
+                  {
+                    "text": "an",
+                    "bounds": {
+                      "top_left": {
+                        "x": 201,
+                        "y": 429
+                      },
+                      "top_right": {
+                        "x": 219,
+                        "y": 429
+                      },
+                      "bottom_right": {
+                        "x": 218,
+                        "y": 452
+                      },
+                      "bottom_left": {
+                        "x": 200,
+                        "y": 452
+                      },
+                      "width": 18,
+                      "height": 23
+                    },
+                    "confidence": 0.99
+                  },
+                  {
+                    "text": "ID",
+                    "bounds": {
+                      "top_left": {
+                        "x": 224,
+                        "y": 429
+                      },
+                      "top_right": {
+                        "x": 243,
+                        "y": 429
+                      },
+                      "bottom_right": {
+                        "x": 242,
+                        "y": 452
+                      },
+                      "bottom_left": {
+                        "x": 223,
+                        "y": 452
+                      },
+                      "width": 19,
+                      "height": 23
+                    },
+                    "confidence": 0.99
+                  },
+                  {
+                    "text": ":",
+                    "bounds": {
+                      "top_left": {
+                        "x": 252,
+                        "y": 429
+                      },
+                      "top_right": {
+                        "x": 262,
+                        "y": 429
+                      },
+                      "bottom_right": {
+                        "x": 261,
+                        "y": 452
+                      },
+                      "bottom_left": {
+                        "x": 251,
+                        "y": 452
+                      },
+                      "width": 10,
+                      "height": 23
+                    },
+                    "confidence": 1
+                  },
+                  {
+                    "text": "Specify",
+                    "bounds": {
+                      "top_left": {
+                        "x": 267,
+                        "y": 429
+                      },
+                      "top_right": {
+                        "x": 327,
+                        "y": 429
+                      },
+                      "bottom_right": {
+                        "x": 326,
+                        "y": 452
+                      },
+                      "bottom_left": {
+                        "x": 266,
+                        "y": 452
+                      },
+                      "width": 60,
+                      "height": 23
+                    },
+                    "confidence": 0.99
+                  },
+                  {
+                    "text": "internal-destination=\"Link-01\"",
+                    "bounds": {
+                      "top_left": {
+                        "x": 331,
+                        "y": 429
+                      },
+                      "top_right": {
+                        "x": 580,
+                        "y": 429
+                      },
+                      "bottom_right": {
+                        "x": 579,
+                        "y": 452
+                      },
+                      "bottom_left": {
+                        "x": 330,
+                        "y": 452
+                      },
+                      "width": 249,
+                      "height": 23
+                    },
+                    "confidence": 0.81
+                  },
+                  {
+                    "text": "on",
+                    "bounds": {
+                      "top_left": {
+                        "x": 585,
+                        "y": 429
+                      },
+                      "top_right": {
+                        "x": 605,
+                        "y": 429
+                      },
+                      "bottom_right": {
+                        "x": 604,
+                        "y": 452
+                      },
+                      "bottom_left": {
+                        "x": 584,
+                        "y": 452
+                      },
+                      "width": 20,
+                      "height": 23
+                    },
+                    "confidence": 1
+                  },
+                  {
+                    "text": "the",
+                    "bounds": {
+                      "top_left": {
+                        "x": 609,
+                        "y": 429
+                      },
+                      "top_right": {
+                        "x": 634,
+                        "y": 429
+                      },
+                      "bottom_right": {
+                        "x": 633,
+                        "y": 452
+                      },
+                      "bottom_left": {
+                        "x": 608,
+                        "y": 452
+                      },
+                      "width": 25,
+                      "height": 23
+                    },
+                    "confidence": 1
+                  },
+                  {
+                    "text": "link;",
+                    "bounds": {
+                      "top_left": {
+                        "x": 638,
+                        "y": 429
+                      },
+                      "top_right": {
+                        "x": 677,
+                        "y": 429
+                      },
+                      "bottom_right": {
+                        "x": 676,
+                        "y": 452
+                      },
+                      "bottom_left": {
+                        "x": 637,
+                        "y": 452
+                      },
+                      "width": 39,
+                      "height": 23
+                    },
+                    "confidence": 0.99
+                  },
+                  {
+                    "text": "specify",
+                    "bounds": {
+                      "top_left": {
+                        "x": 681,
+                        "y": 429
+                      },
+                      "top_right": {
+                        "x": 738,
+                        "y": 429
+                      },
+                      "bottom_right": {
+                        "x": 737,
+                        "y": 452
+                      },
+                      "bottom_left": {
+                        "x": 680,
+                        "y": 452
+                      },
+                      "width": 57,
+                      "height": 23
+                    },
+                    "confidence": 0.99
+                  },
+                  {
+                    "text": "id=\"Link-01\"",
+                    "bounds": {
+                      "top_left": {
+                        "x": 743,
+                        "y": 429
+                      },
+                      "top_right": {
+                        "x": 852,
+                        "y": 429
+                      },
+                      "bottom_right": {
+                        "x": 851,
+                        "y": 452
+                      },
+                      "bottom_left": {
+                        "x": 742,
+                        "y": 452
+                      },
+                      "width": 109,
+                      "height": 23
+                    },
+                    "confidence": 0.94
+                  },
+                  {
+                    "text": "on",
+                    "bounds": {
+                      "top_left": {
+                        "x": 856,
+                        "y": 429
+                      },
+                      "top_right": {
+                        "x": 876,
+                        "y": 429
+                      },
+                      "bottom_right": {
+                        "x": 875,
+                        "y": 452
+                      },
+                      "bottom_left": {
+                        "x": 855,
+                        "y": 452
+                      },
+                      "width": 20,
+                      "height": 23
+                    },
+                    "confidence": 1
+                  },
+                  {
+                    "text": "the",
+                    "bounds": {
+                      "top_left": {
+                        "x": 881,
+                        "y": 429
+                      },
+                      "top_right": {
+                        "x": 905,
+                        "y": 429
+                      },
+                      "bottom_right": {
+                        "x": 904,
+                        "y": 452
+                      },
+                      "bottom_left": {
+                        "x": 880,
+                        "y": 452
+                      },
+                      "width": 24,
+                      "height": 23
+                    },
+                    "confidence": 1
+                  },
+                  {
+                    "text": "link's",
+                    "bounds": {
+                      "top_left": {
+                        "x": 910,
+                        "y": 429
+                      },
+                      "top_right": {
+                        "x": 956,
+                        "y": 429
+                      },
+                      "bottom_right": {
+                        "x": 955,
+                        "y": 452
+                      },
+                      "bottom_left": {
+                        "x": 909,
+                        "y": 452
+                      },
+                      "width": 46,
+                      "height": 23
+                    },
+                    "confidence": 0.99
+                  },
+                  {
+                    "text": "destination.",
+                    "bounds": {
+                      "top_left": {
+                        "x": 961,
+                        "y": 429
+                      },
+                      "top_right": {
+                        "x": 1056,
+                        "y": 430
+                      },
+                      "bottom_right": {
+                        "x": 1055,
+                        "y": 452
+                      },
+                      "bottom_left": {
+                        "x": 960,
+                        "y": 452
+                      },
+                      "width": 95,
+                      "height": 22.5
+                    },
+                    "confidence": 0.99
+                  }
+                ]
+              },
+              {
+                "text": "Linking to a page number (page 2) : internal-destination=\"2\"",
+                "bounds": {
+                  "top_left": {
+                    "x": 111,
+                    "y": 475
+                  },
+                  "top_right": {
+                    "x": 606,
+                    "y": 475
+                  },
+                  "bottom_right": {
+                    "x": 606,
+                    "y": 498
+                  },
+                  "bottom_left": {
+                    "x": 111,
+                    "y": 499
+                  },
+                  "width": 495,
+                  "height": 23.5
+                },
+                "average_confidence": 0.97,
+                "words": [
+                  {
+                    "text": "Linking",
+                    "bounds": {
+                      "top_left": {
+                        "x": 112,
+                        "y": 476
+                      },
+                      "top_right": {
+                        "x": 175,
+                        "y": 477
+                      },
+                      "bottom_right": {
+                        "x": 175,
+                        "y": 500
+                      },
+                      "bottom_left": {
+                        "x": 112,
+                        "y": 499
+                      },
+                      "width": 63,
+                      "height": 23
+                    },
+                    "confidence": 1
+                  },
+                  {
+                    "text": "to",
+                    "bounds": {
+                      "top_left": {
+                        "x": 179,
+                        "y": 477
+                      },
+                      "top_right": {
+                        "x": 195,
+                        "y": 477
+                      },
+                      "bottom_right": {
+                        "x": 195,
+                        "y": 500
+                      },
+                      "bottom_left": {
+                        "x": 179,
+                        "y": 500
+                      },
+                      "width": 16,
+                      "height": 23
+                    },
+                    "confidence": 1
+                  },
+                  {
+                    "text": "a",
+                    "bounds": {
+                      "top_left": {
+                        "x": 200,
+                        "y": 477
+                      },
+                      "top_right": {
+                        "x": 210,
+                        "y": 477
+                      },
+                      "bottom_right": {
+                        "x": 210,
+                        "y": 500
+                      },
+                      "bottom_left": {
+                        "x": 200,
+                        "y": 500
+                      },
+                      "width": 10,
+                      "height": 23
+                    },
+                    "confidence": 0.99
+                  },
+                  {
+                    "text": "page",
+                    "bounds": {
+                      "top_left": {
+                        "x": 214,
+                        "y": 477
+                      },
+                      "top_right": {
+                        "x": 253,
+                        "y": 478
+                      },
+                      "bottom_right": {
+                        "x": 252,
+                        "y": 500
+                      },
+                      "bottom_left": {
+                        "x": 214,
+                        "y": 500
+                      },
+                      "width": 38.5,
+                      "height": 22.5
+                    },
+                    "confidence": 0.99
+                  },
+                  {
+                    "text": "number",
+                    "bounds": {
+                      "top_left": {
+                        "x": 257,
+                        "y": 478
+                      },
+                      "top_right": {
+                        "x": 319,
+                        "y": 478
+                      },
+                      "bottom_right": {
+                        "x": 318,
+                        "y": 500
+                      },
+                      "bottom_left": {
+                        "x": 257,
+                        "y": 500
+                      },
+                      "width": 61.5,
+                      "height": 22
+                    },
+                    "confidence": 1
+                  },
+                  {
+                    "text": "(page",
+                    "bounds": {
+                      "top_left": {
+                        "x": 323,
+                        "y": 478
+                      },
+                      "top_right": {
+                        "x": 370,
+                        "y": 478
+                      },
+                      "bottom_right": {
+                        "x": 369,
+                        "y": 500
+                      },
+                      "bottom_left": {
+                        "x": 323,
+                        "y": 500
+                      },
+                      "width": 46.5,
+                      "height": 22
+                    },
+                    "confidence": 0.99
+                  },
+                  {
+                    "text": "2)",
+                    "bounds": {
+                      "top_left": {
+                        "x": 374,
+                        "y": 478
+                      },
+                      "top_right": {
+                        "x": 392,
+                        "y": 478
+                      },
+                      "bottom_right": {
+                        "x": 391,
+                        "y": 500
+                      },
+                      "bottom_left": {
+                        "x": 374,
+                        "y": 500
+                      },
+                      "width": 17.5,
+                      "height": 22
+                    },
+                    "confidence": 0.96
+                  },
+                  {
+                    "text": ":",
+                    "bounds": {
+                      "top_left": {
+                        "x": 396,
+                        "y": 478
+                      },
+                      "top_right": {
+                        "x": 405,
+                        "y": 478
+                      },
+                      "bottom_right": {
+                        "x": 405,
+                        "y": 500
+                      },
+                      "bottom_left": {
+                        "x": 396,
+                        "y": 500
+                      },
+                      "width": 9,
+                      "height": 22
+                    },
+                    "confidence": 0.99
+                  },
+                  {
+                    "text": "internal-destination=\"2\"",
+                    "bounds": {
+                      "top_left": {
+                        "x": 410,
+                        "y": 478
+                      },
+                      "top_right": {
+                        "x": 606,
+                        "y": 475
+                      },
+                      "bottom_right": {
+                        "x": 605,
+                        "y": 498
+                      },
+                      "bottom_left": {
+                        "x": 409,
+                        "y": 500
+                      },
+                      "width": 196,
+                      "height": 22.5
+                    },
+                    "confidence": 0.79
+                  }
+                ]
+              },
+              {
+                "text": "Linking to a page number (page 2) and setting the display ratio (200%) : internal-destination=\"2#zoom=200\"",
+                "bounds": {
+                  "top_left": {
+                    "x": 109,
+                    "y": 524
+                  },
+                  "top_right": {
+                    "x": 991,
+                    "y": 523
+                  },
+                  "bottom_right": {
+                    "x": 991,
+                    "y": 547
+                  },
+                  "bottom_left": {
+                    "x": 109,
+                    "y": 548
+                  },
+                  "width": 882,
+                  "height": 24
+                },
+                "average_confidence": 0.98,
+                "words": [
+                  {
+                    "text": "Linking",
+                    "bounds": {
+                      "top_left": {
+                        "x": 111,
+                        "y": 525
+                      },
+                      "top_right": {
+                        "x": 174,
+                        "y": 525
+                      },
+                      "bottom_right": {
+                        "x": 174,
+                        "y": 547
+                      },
+                      "bottom_left": {
+                        "x": 111,
+                        "y": 547
+                      },
+                      "width": 63,
+                      "height": 22
+                    },
+                    "confidence": 1
+                  },
+                  {
+                    "text": "to",
+                    "bounds": {
+                      "top_left": {
+                        "x": 179,
+                        "y": 525
+                      },
+                      "top_right": {
+                        "x": 196,
+                        "y": 525
+                      },
+                      "bottom_right": {
+                        "x": 195,
+                        "y": 547
+                      },
+                      "bottom_left": {
+                        "x": 179,
+                        "y": 547
+                      },
+                      "width": 16.5,
+                      "height": 22
+                    },
+                    "confidence": 0.99
+                  },
+                  {
+                    "text": "a",
+                    "bounds": {
+                      "top_left": {
+                        "x": 200,
+                        "y": 525
+                      },
+                      "top_right": {
+                        "x": 209,
+                        "y": 525
+                      },
+                      "bottom_right": {
+                        "x": 209,
+                        "y": 547
+                      },
+                      "bottom_left": {
+                        "x": 200,
+                        "y": 547
+                      },
+                      "width": 9,
+                      "height": 22
+                    },
+                    "confidence": 1
+                  },
+                  {
+                    "text": "page",
+                    "bounds": {
+                      "top_left": {
+                        "x": 214,
+                        "y": 525
+                      },
+                      "top_right": {
+                        "x": 251,
+                        "y": 525
+                      },
+                      "bottom_right": {
+                        "x": 251,
+                        "y": 548
+                      },
+                      "bottom_left": {
+                        "x": 214,
+                        "y": 548
+                      },
+                      "width": 37,
+                      "height": 23
+                    },
+                    "confidence": 0.99
+                  },
+                  {
+                    "text": "number",
+                    "bounds": {
+                      "top_left": {
+                        "x": 256,
+                        "y": 525
+                      },
+                      "top_right": {
+                        "x": 318,
+                        "y": 525
+                      },
+                      "bottom_right": {
+                        "x": 318,
+                        "y": 548
+                      },
+                      "bottom_left": {
+                        "x": 256,
+                        "y": 548
+                      },
+                      "width": 62,
+                      "height": 23
+                    },
+                    "confidence": 1
+                  },
+                  {
+                    "text": "(page",
+                    "bounds": {
+                      "top_left": {
+                        "x": 322,
+                        "y": 525
+                      },
+                      "top_right": {
+                        "x": 369,
+                        "y": 525
+                      },
+                      "bottom_right": {
+                        "x": 369,
+                        "y": 548
+                      },
+                      "bottom_left": {
+                        "x": 322,
+                        "y": 548
+                      },
+                      "width": 47,
+                      "height": 23
+                    },
+                    "confidence": 0.99
+                  },
+                  {
+                    "text": "2)",
+                    "bounds": {
+                      "top_left": {
+                        "x": 374,
+                        "y": 525
+                      },
+                      "top_right": {
+                        "x": 390,
+                        "y": 525
+                      },
+                      "bottom_right": {
+                        "x": 390,
+                        "y": 548
+                      },
+                      "bottom_left": {
+                        "x": 374,
+                        "y": 548
+                      },
+                      "width": 16,
+                      "height": 23
+                    },
+                    "confidence": 0.96
+                  },
+                  {
+                    "text": "and",
+                    "bounds": {
+                      "top_left": {
+                        "x": 395,
+                        "y": 525
+                      },
+                      "top_right": {
+                        "x": 424,
+                        "y": 525
+                      },
+                      "bottom_right": {
+                        "x": 423,
+                        "y": 548
+                      },
+                      "bottom_left": {
+                        "x": 395,
+                        "y": 548
+                      },
+                      "width": 28.5,
+                      "height": 23
+                    },
+                    "confidence": 0.99
+                  },
+                  {
+                    "text": "setting",
+                    "bounds": {
+                      "top_left": {
+                        "x": 428,
+                        "y": 525
+                      },
+                      "top_right": {
+                        "x": 481,
+                        "y": 525
+                      },
+                      "bottom_right": {
+                        "x": 481,
+                        "y": 548
+                      },
+                      "bottom_left": {
+                        "x": 428,
+                        "y": 548
+                      },
+                      "width": 53,
+                      "height": 23
+                    },
+                    "confidence": 0.99
+                  },
+                  {
+                    "text": "the",
+                    "bounds": {
+                      "top_left": {
+                        "x": 486,
+                        "y": 525
+                      },
+                      "top_right": {
+                        "x": 513,
+                        "y": 525
+                      },
+                      "bottom_right": {
+                        "x": 512,
+                        "y": 548
+                      },
+                      "bottom_left": {
+                        "x": 485,
+                        "y": 548
+                      },
+                      "width": 27,
+                      "height": 23
+                    },
+                    "confidence": 0.99
+                  },
+                  {
+                    "text": "display",
+                    "bounds": {
+                      "top_left": {
+                        "x": 517,
+                        "y": 525
+                      },
+                      "top_right": {
+                        "x": 575,
+                        "y": 525
+                      },
+                      "bottom_right": {
+                        "x": 574,
+                        "y": 548
+                      },
+                      "bottom_left": {
+                        "x": 517,
+                        "y": 548
+                      },
+                      "width": 57.5,
+                      "height": 23
+                    },
+                    "confidence": 1
+                  },
+                  {
+                    "text": "ratio",
+                    "bounds": {
+                      "top_left": {
+                        "x": 579,
+                        "y": 525
+                      },
+                      "top_right": {
+                        "x": 616,
+                        "y": 525
+                      },
+                      "bottom_right": {
+                        "x": 615,
+                        "y": 548
+                      },
+                      "bottom_left": {
+                        "x": 579,
+                        "y": 548
+                      },
+                      "width": 36.5,
+                      "height": 23
+                    },
+                    "confidence": 1
+                  },
+                  {
+                    "text": "(200%)",
+                    "bounds": {
+                      "top_left": {
+                        "x": 620,
+                        "y": 525
+                      },
+                      "top_right": {
+                        "x": 682,
+                        "y": 525
+                      },
+                      "bottom_right": {
+                        "x": 682,
+                        "y": 548
+                      },
+                      "bottom_left": {
+                        "x": 620,
+                        "y": 548
+                      },
+                      "width": 62,
+                      "height": 23
+                    },
+                    "confidence": 0.99
+                  },
+                  {
+                    "text": ":",
+                    "bounds": {
+                      "top_left": {
+                        "x": 687,
+                        "y": 525
+                      },
+                      "top_right": {
+                        "x": 696,
+                        "y": 525
+                      },
+                      "bottom_right": {
+                        "x": 695,
+                        "y": 548
+                      },
+                      "bottom_left": {
+                        "x": 686,
+                        "y": 548
+                      },
+                      "width": 9,
+                      "height": 23
+                    },
+                    "confidence": 0.99
+                  },
+                  {
+                    "text": "internal-destination=\"2#zoom=200\"",
+                    "bounds": {
+                      "top_left": {
+                        "x": 700,
+                        "y": 525
+                      },
+                      "top_right": {
+                        "x": 992,
+                        "y": 524
+                      },
+                      "bottom_right": {
+                        "x": 991,
+                        "y": 547
+                      },
+                      "bottom_left": {
+                        "x": 700,
+                        "y": 548
+                      },
+                      "width": 291.5,
+                      "height": 23
+                    },
+                    "confidence": 0.87
+                  }
+                ]
+              },
+              {
+                "text": "Linking to an external destination",
+                "bounds": {
+                  "top_left": {
+                    "x": 111,
+                    "y": 583
+                  },
+                  "top_right": {
+                    "x": 499,
+                    "y": 584
+                  },
+                  "bottom_right": {
+                    "x": 499,
+                    "y": 611
+                  },
+                  "bottom_left": {
+                    "x": 111,
+                    "y": 610
+                  },
+                  "width": 388,
+                  "height": 27
+                },
+                "average_confidence": 1,
+                "words": [
+                  {
+                    "text": "Linking",
+                    "bounds": {
+                      "top_left": {
+                        "x": 111,
+                        "y": 583
+                      },
+                      "top_right": {
+                        "x": 196,
+                        "y": 585
+                      },
+                      "bottom_right": {
+                        "x": 196,
+                        "y": 611
+                      },
+                      "bottom_left": {
+                        "x": 111,
+                        "y": 611
+                      },
+                      "width": 85,
+                      "height": 27
+                    },
+                    "confidence": 1
+                  },
+                  {
+                    "text": "to",
+                    "bounds": {
+                      "top_left": {
+                        "x": 203,
+                        "y": 585
+                      },
+                      "top_right": {
+                        "x": 225,
+                        "y": 585
+                      },
+                      "bottom_right": {
+                        "x": 226,
+                        "y": 610
+                      },
+                      "bottom_left": {
+                        "x": 203,
+                        "y": 610
+                      },
+                      "width": 22.5,
+                      "height": 25
+                    },
+                    "confidence": 1
+                  },
+                  {
+                    "text": "an",
+                    "bounds": {
+                      "top_left": {
+                        "x": 234,
+                        "y": 585
+                      },
+                      "top_right": {
+                        "x": 258,
+                        "y": 586
+                      },
+                      "bottom_right": {
+                        "x": 259,
+                        "y": 610
+                      },
+                      "bottom_left": {
+                        "x": 234,
+                        "y": 610
+                      },
+                      "width": 24.5,
+                      "height": 24.5
+                    },
+                    "confidence": 1
+                  },
+                  {
+                    "text": "external",
+                    "bounds": {
+                      "top_left": {
+                        "x": 269,
+                        "y": 586
+                      },
+                      "top_right": {
+                        "x": 362,
+                        "y": 586
+                      },
+                      "bottom_right": {
+                        "x": 363,
+                        "y": 610
+                      },
+                      "bottom_left": {
+                        "x": 269,
+                        "y": 610
+                      },
+                      "width": 93.5,
+                      "height": 24
+                    },
+                    "confidence": 0.99
+                  },
+                  {
+                    "text": "destination",
+                    "bounds": {
+                      "top_left": {
+                        "x": 367,
+                        "y": 586
+                      },
+                      "top_right": {
+                        "x": 493,
+                        "y": 586
+                      },
+                      "bottom_right": {
+                        "x": 494,
+                        "y": 611
+                      },
+                      "bottom_left": {
+                        "x": 368,
+                        "y": 610
+                      },
+                      "width": 126,
+                      "height": 24.5
+                    },
+                    "confidence": 1
+                  }
+                ]
+              },
+              {
+                "text": "Linking to an external file (attachment-sample-1.pdf). : external-destination=\"./attachment-sample-1.pdf\"",
+                "bounds": {
+                  "top_left": {
+                    "x": 109,
+                    "y": 631
+                  },
+                  "top_right": {
+                    "x": 961,
+                    "y": 631
+                  },
+                  "bottom_right": {
+                    "x": 961,
+                    "y": 654
+                  },
+                  "bottom_left": {
+                    "x": 109,
+                    "y": 653
+                  },
+                  "width": 852,
+                  "height": 22.5
+                },
+                "average_confidence": 0.97,
+                "words": [
+                  {
+                    "text": "Linking",
+                    "bounds": {
+                      "top_left": {
+                        "x": 111,
+                        "y": 631
+                      },
+                      "top_right": {
+                        "x": 175,
+                        "y": 631
+                      },
+                      "bottom_right": {
+                        "x": 175,
+                        "y": 654
+                      },
+                      "bottom_left": {
+                        "x": 111,
+                        "y": 654
+                      },
+                      "width": 64,
+                      "height": 23
+                    },
+                    "confidence": 0.99
+                  },
+                  {
+                    "text": "to",
+                    "bounds": {
+                      "top_left": {
+                        "x": 179,
+                        "y": 631
+                      },
+                      "top_right": {
+                        "x": 196,
+                        "y": 631
+                      },
+                      "bottom_right": {
+                        "x": 196,
+                        "y": 654
+                      },
+                      "bottom_left": {
+                        "x": 179,
+                        "y": 654
+                      },
+                      "width": 17,
+                      "height": 23
+                    },
+                    "confidence": 1
+                  },
+                  {
+                    "text": "an",
+                    "bounds": {
+                      "top_left": {
+                        "x": 200,
+                        "y": 631
+                      },
+                      "top_right": {
+                        "x": 220,
+                        "y": 631
+                      },
+                      "bottom_right": {
+                        "x": 220,
+                        "y": 654
+                      },
+                      "bottom_left": {
+                        "x": 200,
+                        "y": 654
+                      },
+                      "width": 20,
+                      "height": 23
+                    },
+                    "confidence": 1
+                  },
+                  {
+                    "text": "external",
+                    "bounds": {
+                      "top_left": {
+                        "x": 224,
+                        "y": 631
+                      },
+                      "top_right": {
+                        "x": 290,
+                        "y": 631
+                      },
+                      "bottom_right": {
+                        "x": 290,
+                        "y": 654
+                      },
+                      "bottom_left": {
+                        "x": 224,
+                        "y": 654
+                      },
+                      "width": 66,
+                      "height": 23
+                    },
+                    "confidence": 0.99
+                  },
+                  {
+                    "text": "file",
+                    "bounds": {
+                      "top_left": {
+                        "x": 294,
+                        "y": 631
+                      },
+                      "top_right": {
+                        "x": 320,
+                        "y": 631
+                      },
+                      "bottom_right": {
+                        "x": 319,
+                        "y": 654
+                      },
+                      "bottom_left": {
+                        "x": 294,
+                        "y": 654
+                      },
+                      "width": 25.5,
+                      "height": 23
+                    },
+                    "confidence": 0.99
+                  },
+                  {
+                    "text": "(attachment-sample-1.pdf).",
+                    "bounds": {
+                      "top_left": {
+                        "x": 324,
+                        "y": 631
+                      },
+                      "top_right": {
+                        "x": 545,
+                        "y": 631
+                      },
+                      "bottom_right": {
+                        "x": 544,
+                        "y": 654
+                      },
+                      "bottom_left": {
+                        "x": 324,
+                        "y": 654
+                      },
+                      "width": 220.5,
+                      "height": 23
+                    },
+                    "confidence": 0.96
+                  },
+                  {
+                    "text": ":",
+                    "bounds": {
+                      "top_left": {
+                        "x": 549,
+                        "y": 631
+                      },
+                      "top_right": {
+                        "x": 558,
+                        "y": 631
+                      },
+                      "bottom_right": {
+                        "x": 558,
+                        "y": 654
+                      },
+                      "bottom_left": {
+                        "x": 549,
+                        "y": 654
+                      },
+                      "width": 9,
+                      "height": 23
+                    },
+                    "confidence": 0.99
+                  },
+                  {
+                    "text": "external-destination=\"./attachment-sample-1.pdf\"",
+                    "bounds": {
+                      "top_left": {
+                        "x": 563,
+                        "y": 631
+                      },
+                      "top_right": {
+                        "x": 961,
+                        "y": 631
+                      },
+                      "bottom_right": {
+                        "x": 960,
+                        "y": 655
+                      },
+                      "bottom_left": {
+                        "x": 562,
+                        "y": 654
+                      },
+                      "width": 398,
+                      "height": 23.5
+                    },
+                    "confidence": 0.85
+                  }
+                ]
+              },
+              {
+                "text": "Linking to a website (https://www.antennahouse.com/) : external-destination=\"https://www.antennahouse.com/\"",
+                "bounds": {
+                  "top_left": {
+                    "x": 111,
+                    "y": 676
+                  },
+                  "top_right": {
+                    "x": 1016,
+                    "y": 677
+                  },
+                  "bottom_right": {
+                    "x": 1016,
+                    "y": 701
+                  },
+                  "bottom_left": {
+                    "x": 111,
+                    "y": 701
+                  },
+                  "width": 905,
+                  "height": 24.5
+                },
+                "average_confidence": 0.96,
+                "words": [
+                  {
+                    "text": "Linking",
+                    "bounds": {
+                      "top_left": {
+                        "x": 111,
+                        "y": 677
+                      },
+                      "top_right": {
+                        "x": 174,
+                        "y": 677
+                      },
+                      "bottom_right": {
+                        "x": 174,
+                        "y": 701
+                      },
+                      "bottom_left": {
+                        "x": 111,
+                        "y": 700
+                      },
+                      "width": 63,
+                      "height": 23.5
+                    },
+                    "confidence": 1
+                  },
+                  {
+                    "text": "to",
+                    "bounds": {
+                      "top_left": {
+                        "x": 178,
+                        "y": 677
+                      },
+                      "top_right": {
+                        "x": 196,
+                        "y": 678
+                      },
+                      "bottom_right": {
+                        "x": 196,
+                        "y": 701
+                      },
+                      "bottom_left": {
+                        "x": 179,
+                        "y": 701
+                      },
+                      "width": 17.5,
+                      "height": 23.5
+                    },
+                    "confidence": 0.99
+                  },
+                  {
+                    "text": "a",
+                    "bounds": {
+                      "top_left": {
+                        "x": 201,
+                        "y": 678
+                      },
+                      "top_right": {
+                        "x": 210,
+                        "y": 678
+                      },
+                      "bottom_right": {
+                        "x": 210,
+                        "y": 701
+                      },
+                      "bottom_left": {
+                        "x": 201,
+                        "y": 701
+                      },
+                      "width": 9,
+                      "height": 23
+                    },
+                    "confidence": 1
+                  },
+                  {
+                    "text": "website",
+                    "bounds": {
+                      "top_left": {
+                        "x": 214,
+                        "y": 678
+                      },
+                      "top_right": {
+                        "x": 275,
+                        "y": 678
+                      },
+                      "bottom_right": {
+                        "x": 276,
+                        "y": 701
+                      },
+                      "bottom_left": {
+                        "x": 214,
+                        "y": 701
+                      },
+                      "width": 61.5,
+                      "height": 23
+                    },
+                    "confidence": 1
+                  },
+                  {
+                    "text": "(https://www.antennahouse.com/)",
+                    "bounds": {
+                      "top_left": {
+                        "x": 280,
+                        "y": 678
+                      },
+                      "top_right": {
+                        "x": 552,
+                        "y": 679
+                      },
+                      "bottom_right": {
+                        "x": 552,
+                        "y": 702
+                      },
+                      "bottom_left": {
+                        "x": 280,
+                        "y": 701
+                      },
+                      "width": 272,
+                      "height": 23
+                    },
+                    "confidence": 0.92
+                  },
+                  {
+                    "text": ":",
+                    "bounds": {
+                      "top_left": {
+                        "x": 556,
+                        "y": 679
+                      },
+                      "top_right": {
+                        "x": 565,
+                        "y": 679
+                      },
+                      "bottom_right": {
+                        "x": 566,
+                        "y": 702
+                      },
+                      "bottom_left": {
+                        "x": 557,
+                        "y": 702
+                      },
+                      "width": 9,
+                      "height": 23
+                    },
+                    "confidence": 0.99
+                  },
+                  {
+                    "text": "external-destination=\"https://www.antennahouse.com/\"",
+                    "bounds": {
+                      "top_left": {
+                        "x": 570,
+                        "y": 679
+                      },
+                      "top_right": {
+                        "x": 1016,
+                        "y": 678
+                      },
+                      "bottom_right": {
+                        "x": 1017,
+                        "y": 701
+                      },
+                      "bottom_left": {
+                        "x": 570,
+                        "y": 702
+                      },
+                      "width": 446.5,
+                      "height": 23
+                    },
+                    "confidence": 0.83
+                  }
+                ]
+              },
+              {
+                "text": "Antenna House, Inc.",
+                "bounds": {
+                  "top_left": {
+                    "x": 944,
+                    "y": 1589
+                  },
+                  "top_right": {
+                    "x": 1079,
+                    "y": 1589
+                  },
+                  "bottom_right": {
+                    "x": 1079,
+                    "y": 1607
+                  },
+                  "bottom_left": {
+                    "x": 944,
+                    "y": 1607
+                  },
+                  "width": 135,
+                  "height": 18
+                },
+                "average_confidence": 0.99,
+                "words": [
+                  {
+                    "text": "Antenna",
+                    "bounds": {
+                      "top_left": {
+                        "x": 945,
+                        "y": 1589
+                      },
+                      "top_right": {
+                        "x": 1000,
+                        "y": 1589
+                      },
+                      "bottom_right": {
+                        "x": 999,
+                        "y": 1607
+                      },
+                      "bottom_left": {
+                        "x": 944,
+                        "y": 1607
+                      },
+                      "width": 55,
+                      "height": 18
+                    },
+                    "confidence": 0.99
+                  },
+                  {
+                    "text": "House,",
+                    "bounds": {
+                      "top_left": {
+                        "x": 1004,
+                        "y": 1589
+                      },
+                      "top_right": {
+                        "x": 1049,
+                        "y": 1589
+                      },
+                      "bottom_right": {
+                        "x": 1048,
+                        "y": 1608
+                      },
+                      "bottom_left": {
+                        "x": 1003,
+                        "y": 1607
+                      },
+                      "width": 45,
+                      "height": 18.5
+                    },
+                    "confidence": 0.99
+                  },
+                  {
+                    "text": "Inc.",
+                    "bounds": {
+                      "top_left": {
+                        "x": 1052,
+                        "y": 1590
+                      },
+                      "top_right": {
+                        "x": 1080,
+                        "y": 1590
+                      },
+                      "bottom_right": {
+                        "x": 1079,
+                        "y": 1608
+                      },
+                      "bottom_left": {
+                        "x": 1051,
+                        "y": 1608
+                      },
+                      "width": 28,
+                      "height": 18
+                    },
+                    "confidence": 0.99
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "text": "About Antenna House\nSee also https://www.antennahouse.com/for more details.\nAntenna House, Inc.",
+            "lines": [
+              {
+                "text": "About Antenna House",
+                "bounds": {
+                  "top_left": {
+                    "x": 109,
+                    "y": 61
+                  },
+                  "top_right": {
+                    "x": 400,
+                    "y": 61
+                  },
+                  "bottom_right": {
+                    "x": 400,
+                    "y": 90
+                  },
+                  "bottom_left": {
+                    "x": 109,
+                    "y": 90
+                  },
+                  "width": 291,
+                  "height": 29
+                },
+                "average_confidence": 1,
+                "words": [
+                  {
+                    "text": "About",
+                    "bounds": {
+                      "top_left": {
+                        "x": 114,
+                        "y": 62
+                      },
+                      "top_right": {
+                        "x": 196,
+                        "y": 62
+                      },
+                      "bottom_right": {
+                        "x": 196,
+                        "y": 91
+                      },
+                      "bottom_left": {
+                        "x": 114,
+                        "y": 91
+                      },
+                      "width": 82,
+                      "height": 29
+                    },
+                    "confidence": 1
+                  },
+                  {
+                    "text": "Antenna",
+                    "bounds": {
+                      "top_left": {
+                        "x": 202,
+                        "y": 62
+                      },
+                      "top_right": {
+                        "x": 310,
+                        "y": 63
+                      },
+                      "bottom_right": {
+                        "x": 310,
+                        "y": 90
+                      },
+                      "bottom_left": {
+                        "x": 202,
+                        "y": 91
+                      },
+                      "width": 108,
+                      "height": 28
+                    },
+                    "confidence": 0.99
+                  },
+                  {
+                    "text": "House",
+                    "bounds": {
+                      "top_left": {
+                        "x": 318,
+                        "y": 63
+                      },
+                      "top_right": {
+                        "x": 399,
+                        "y": 63
+                      },
+                      "bottom_right": {
+                        "x": 398,
+                        "y": 90
+                      },
+                      "bottom_left": {
+                        "x": 318,
+                        "y": 90
+                      },
+                      "width": 80.5,
+                      "height": 27
+                    },
+                    "confidence": 1
+                  }
+                ]
+              },
+              {
+                "text": "See also https://www.antennahouse.com/for more details.",
+                "bounds": {
+                  "top_left": {
+                    "x": 129,
+                    "y": 108
+                  },
+                  "top_right": {
+                    "x": 592,
+                    "y": 108
+                  },
+                  "bottom_right": {
+                    "x": 592,
+                    "y": 132
+                  },
+                  "bottom_left": {
+                    "x": 129,
+                    "y": 132
+                  },
+                  "width": 463,
+                  "height": 24
+                },
+                "average_confidence": 0.98,
+                "words": [
+                  {
+                    "text": "See",
+                    "bounds": {
+                      "top_left": {
+                        "x": 133,
+                        "y": 109
+                      },
+                      "top_right": {
+                        "x": 160,
+                        "y": 109
+                      },
+                      "bottom_right": {
+                        "x": 160,
+                        "y": 133
+                      },
+                      "bottom_left": {
+                        "x": 133,
+                        "y": 133
+                      },
+                      "width": 27,
+                      "height": 24
+                    },
+                    "confidence": 1
+                  },
+                  {
+                    "text": "also",
+                    "bounds": {
+                      "top_left": {
+                        "x": 165,
+                        "y": 109
+                      },
+                      "top_right": {
+                        "x": 198,
+                        "y": 109
+                      },
+                      "bottom_right": {
+                        "x": 198,
+                        "y": 133
+                      },
+                      "bottom_left": {
+                        "x": 165,
+                        "y": 133
+                      },
+                      "width": 33,
+                      "height": 24
+                    },
+                    "confidence": 0.99
+                  },
+                  {
+                    "text": "https://www.antennahouse.com/for",
+                    "bounds": {
+                      "top_left": {
+                        "x": 202,
+                        "y": 109
+                      },
+                      "top_right": {
+                        "x": 482,
+                        "y": 110
+                      },
+                      "bottom_right": {
+                        "x": 482,
+                        "y": 132
+                      },
+                      "bottom_left": {
+                        "x": 202,
+                        "y": 133
+                      },
+                      "width": 280,
+                      "height": 23
+                    },
+                    "confidence": 0.93
+                  },
+                  {
+                    "text": "more",
+                    "bounds": {
+                      "top_left": {
+                        "x": 487,
+                        "y": 110
+                      },
+                      "top_right": {
+                        "x": 529,
+                        "y": 110
+                      },
+                      "bottom_right": {
+                        "x": 529,
+                        "y": 132
+                      },
+                      "bottom_left": {
+                        "x": 487,
+                        "y": 132
+                      },
+                      "width": 42,
+                      "height": 22
+                    },
+                    "confidence": 0.99
+                  },
+                  {
+                    "text": "details.",
+                    "bounds": {
+                      "top_left": {
+                        "x": 534,
+                        "y": 110
+                      },
+                      "top_right": {
+                        "x": 593,
+                        "y": 109
+                      },
+                      "bottom_right": {
+                        "x": 593,
+                        "y": 133
+                      },
+                      "bottom_left": {
+                        "x": 534,
+                        "y": 132
+                      },
+                      "width": 59,
+                      "height": 23
+                    },
+                    "confidence": 0.99
+                  }
+                ]
+              },
+              {
+                "text": "Antenna House, Inc.",
+                "bounds": {
+                  "top_left": {
+                    "x": 944,
+                    "y": 1589
+                  },
+                  "top_right": {
+                    "x": 1079,
+                    "y": 1589
+                  },
+                  "bottom_right": {
+                    "x": 1079,
+                    "y": 1607
+                  },
+                  "bottom_left": {
+                    "x": 944,
+                    "y": 1607
+                  },
+                  "width": 135,
+                  "height": 18
+                },
+                "average_confidence": 0.99,
+                "words": [
+                  {
+                    "text": "Antenna",
+                    "bounds": {
+                      "top_left": {
+                        "x": 945,
+                        "y": 1589
+                      },
+                      "top_right": {
+                        "x": 1000,
+                        "y": 1589
+                      },
+                      "bottom_right": {
+                        "x": 999,
+                        "y": 1607
+                      },
+                      "bottom_left": {
+                        "x": 944,
+                        "y": 1607
+                      },
+                      "width": 55,
+                      "height": 18
+                    },
+                    "confidence": 0.99
+                  },
+                  {
+                    "text": "House,",
+                    "bounds": {
+                      "top_left": {
+                        "x": 1004,
+                        "y": 1589
+                      },
+                      "top_right": {
+                        "x": 1049,
+                        "y": 1589
+                      },
+                      "bottom_right": {
+                        "x": 1048,
+                        "y": 1608
+                      },
+                      "bottom_left": {
+                        "x": 1003,
+                        "y": 1607
+                      },
+                      "width": 45,
+                      "height": 18.5
+                    },
+                    "confidence": 0.99
+                  },
+                  {
+                    "text": "Inc.",
+                    "bounds": {
+                      "top_left": {
+                        "x": 1052,
+                        "y": 1590
+                      },
+                      "top_right": {
+                        "x": 1080,
+                        "y": 1590
+                      },
+                      "bottom_right": {
+                        "x": 1079,
+                        "y": 1608
+                      },
+                      "bottom_left": {
+                        "x": 1051,
+                        "y": 1608
+                      },
+                      "width": 28,
+                      "height": 18
+                    },
+                    "confidence": 0.99
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "width": 1190,
+        "height": 3366,
+        "total_pages": 2
+      }
+    }
+  ],
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Links in PDF\nThere are two types of links in PDF: a link to a specific position in the same PDF document, and a link to an external document. The internal-destination property of fo:basic-link indicates to link to a position in the same document. Its destination may be either an ID or a page number. The external-destination property indicates to link to an external document. Its destination may be either an external file or a website.\nLinking to an internal destination\nLinking to an ID : Specify internal-destination=\"Link-01\" on the link; specify id=\"Link-01\" on the link's destination.\nLinking to a page number (page 2) : internal-destination=\"2\"\nLinking to a page number (page 2) and setting the display ratio (200%) : internal-destination=\"2#zoom=200\"\nLinking to an external destination\nLinking to an external file (attachment-sample-1.pdf). : external-destination=\"./attachment-sample-1.pdf\"\nLinking to a website (https://www.antennahouse.com/) : external-destination=\"https://www.antennahouse.com/\"\nAntenna House, Inc.\nAbout Antenna House\nSee also https://www.antennahouse.com/for more details.\nAntenna House, Inc."
+      },
+      "finish_reason": "stop"
+    }
+  ]
+}

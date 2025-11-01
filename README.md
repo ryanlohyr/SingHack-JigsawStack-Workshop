@@ -39,4 +39,14 @@ npx tsx core_concepts/precontext.ts
 npx tsx agent/agent.ts
 ```
 
+## Claiming free credits
+
+1. Go to `https://interfaze.ai/dashboard`
+2. Choose $50 and press on Add credits, 
+3. Key in the coupon code `SINGHACK25KD`
+
+
+## Help 
+1. Go to `https://jigsawstack.com/discord`
+
 

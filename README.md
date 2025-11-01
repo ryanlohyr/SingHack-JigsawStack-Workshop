@@ -33,3 +33,10 @@ npx tsx core_concepts/reasoning.ts
 npx tsx core_concepts/precontext.ts
 ```
 
+## Running the agent
+
+```bash
+npx tsx agent/agent.ts
+```
+
+
